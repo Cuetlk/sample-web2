@@ -1,0 +1,199 @@
+/*
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Righteous', cursive;
+*/
+
+.sinhalafont{
+    font-family: 'Noto Sans Sinhala', sans-serif; 
+}
+.englisfont01{
+    font-family: 'Kanit', sans-serif;
+}
+.englisfont02{
+    font-family: 'Righteous', cursive;
+}
+
+li{ list-style-type: none; } a{  text-decoration: none; }
+.top-bar{
+    font-size: 14px;
+    color: #111;
+}
+.logo{
+    font-family: 'Fredoka One', cursive;
+}
+.tob-bar-nav ul li{
+    font-family: 'Kanit', sans-serif; 
+}
+/*
+.main-banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */ 
+
+.more-btn a{
+    margin: 20px;
+    font-family: 'Righteous', cursive;
+}
+.cvnum {
+    font-family: 'Kanit', sans-serif; 
+}
+.topic{
+    margin: 30px 0px 50px 0px;
+}
+.topic h3{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+.cards .card:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.mob-nav{
+    display: none;
+}
+.mod-side{
+    display: none;
+}
+
+.paymentDetails .card{
+        text-align: center;
+        padding: 20px;
+    }
+
+
+@media (max-width: 1200px){
+    body{
+        padding-top: 0px !important;
+    }
+    .tob-bar-nav{
+        display: none;
+    }
+    .mob-nav{
+        display: block;
+    }
+    .order-table{
+        margin-top: 50px;
+    }
+    .myacc{
+        text-align: center !important;
+    }
+    .myacc a{
+        color: #fff;
+    }
+    .side-bar .dek-side{
+        display: none !important;
+    }
+    .mod-side{
+        display: block;
+    }
+}
+@media (max-width: 760px){
+    .msgbox{
+        margin-top: 20px !important;
+    }
+    .msgbox-2{
+        margin: 20px 0px 20px 0px !important;
+    }
+}
+
+.cv-text h4{
+    font-weight: bold !important;
+    font-family: 'Kanit', sans-serif;
+    color: red;
+}
+.cv-text label {
+    font-weight: bold !important;
+    color: #06a !important;
+    font-family: 'Kanit', sans-serif;
+}
+
+.ss-img img{
+    width: 100%;
+}
+
+#loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+}
+#loader .content{
+    margin-top: 300px;
+}
+.hidden{
+    display: none;
+}
+
+.sign label{
+    font-weight: bold !important;
+    color: #06a !important;
+    font-family: 'Kanit', sans-serif;
+}
+
+.importent-text ul li, .ccc p{
+    font-size: 14px;
+}
+
+
+.msgbox{
+    background-color: #383838;
+    color: #fff;
+    border-radius: 20px;
+}
+.msgbox h4 span{ color: #fff; }
+
+
+.inpErrorMsg{
+    border-color: #c90707;
+}.inpErrorMsg:focus {
+    border-color: none !important;
+}
+
+
+/* signup form */
+.prequaments{ color: red; }
+.val_pass{ 
+    color: green!important;
+    font-weight: bold !important;
+}
+
+.errorMSGFile{
+    color: red;
+    display: none;
+}
+.show{
+    display: block !important;
+}
+
+
+/* Order Page TextArea Validation Error MSG */
+.errorMsg{
+    display: none;
+}
+.msgErrorImgBtn{
+    display: none;
+    color: red;
+    text-align: center;
+}
+.styleErrMSG{
+    color: red;
+    font-weight: bold;
+}
+.msgErrorBtn{
+    text-align: center;
+    color: red;
+    display: none;
+}
+.errorMsgWRImgEX{
+    text-align: center;
+    color: red;
+    display: none;
+}
